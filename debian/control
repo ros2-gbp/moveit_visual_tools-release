@@ -1,0 +1,12 @@
+Source: ros-jazzy-moveit-visual-tools
+Section: misc
+Priority: optional
+Maintainer: Dave Coleman <dave@picknik.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-geometry-msgs, ros-jazzy-graph-msgs, ros-jazzy-moveit-common, ros-jazzy-moveit-core, ros-jazzy-moveit-ros-planning, ros-jazzy-rclcpp, ros-jazzy-rviz-visual-tools, ros-jazzy-std-msgs, ros-jazzy-tf2-eigen, ros-jazzy-tf2-ros, ros-jazzy-trajectory-msgs, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Homepage: https://github.com/ros-planning/moveit_visual_tools
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-moveit-visual-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-geometry-msgs, ros-jazzy-graph-msgs, ros-jazzy-moveit-common, ros-jazzy-moveit-core, ros-jazzy-moveit-ros-planning, ros-jazzy-rclcpp, ros-jazzy-rviz-visual-tools, ros-jazzy-std-msgs, ros-jazzy-tf2-eigen, ros-jazzy-tf2-ros, ros-jazzy-trajectory-msgs, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Description: Helper functions for displaying and debugging MoveIt data in Rviz via published markers
