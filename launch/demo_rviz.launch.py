@@ -28,9 +28,10 @@
 
 
 import os
+
+from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch_ros.actions import Node
-from ament_index_python.packages import get_package_share_directory
 
 
 def load_file(package_name, file_path):
@@ -40,12 +41,11 @@ def load_file(package_name, file_path):
     try:
         with open(absolute_file_path, "r") as file:
             return file.read()
-    except EnvironmentError:  # parent of IOError, OSError *and* WindowsError where available
+    except EnvironmentError:  # parent of IOError, OSError, WindowsError
         return None
 
 
 def generate_launch_description():
-
     robot_description_config = load_file("moveit_visual_tools", "resources/rrbot.urdf")
 
     robot_description = {"robot_description": robot_description_config}
