@@ -1,0 +1,12 @@
+Source: ros-lyrical-moveit-visual-tools
+Section: misc
+Priority: optional
+Maintainer: Dave Coleman <dave@picknik.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-geometry-msgs, ros-lyrical-graph-msgs, ros-lyrical-moveit-common, ros-lyrical-moveit-core, ros-lyrical-moveit-ros-planning, ros-lyrical-rclcpp, ros-lyrical-rviz-visual-tools, ros-lyrical-std-msgs, ros-lyrical-tf2-eigen, ros-lyrical-tf2-ros, ros-lyrical-trajectory-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Homepage: https://github.com/ros-planning/moveit_visual_tools
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-moveit-visual-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-geometry-msgs, ros-lyrical-graph-msgs, ros-lyrical-moveit-common, ros-lyrical-moveit-core, ros-lyrical-moveit-ros-planning, ros-lyrical-rclcpp, ros-lyrical-rviz-visual-tools, ros-lyrical-std-msgs, ros-lyrical-tf2-eigen, ros-lyrical-tf2-ros, ros-lyrical-trajectory-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Description: Helper functions for displaying and debugging MoveIt data in Rviz via published markers
