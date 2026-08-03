@@ -1,3 +1,26 @@
+## moveit_visual_tools (kilted) - 4.2.0-1
+
+The packages in the `moveit_visual_tools` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted --track kilted moveit_visual_tools` on `Mon, 03 Aug 2026 06:41:41 -0000`
+
+The `moveit_visual_tools` package was released.
+
+Version of package(s) in repository `moveit_visual_tools`:
+
+- upstream repository: https://github.com/ros-planning/moveit_visual_tools.git
+- release repository: https://github.com/ros2-gbp/moveit_visual_tools-release.git
+- rosdistro version: `4.1.2-2`
+- old version: `4.1.2-2`
+- new version: `4.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## moveit_visual_tools (lyrical) - 4.2.0-1
 
 The packages in the `moveit_visual_tools` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --rosdistro lyrical --track lyrical moveit_visual_tools` on `Mon, 03 Aug 2026 06:40:39 -0000`
